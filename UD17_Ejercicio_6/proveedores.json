@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626a5dc602d056134800aae0"
+  },
+  "id": "CO01",
+  "nombre": "prov1"
+},{
+  "_id": {
+    "$oid": "626a5dca02d056134800aae1"
+  },
+  "id": "CO02",
+  "nombre": "prov2"
+},{
+  "_id": {
+    "$oid": "626a5dce02d056134800aae2"
+  },
+  "id": "CO03",
+  "nombre": "prov3"
+},{
+  "_id": {
+    "$oid": "626a5dd302d056134800aae3"
+  },
+  "id": "CO04",
+  "nombre": "prov4"
+},{
+  "_id": {
+    "$oid": "626a5dd902d056134800aae4"
+  },
+  "id": "CO05",
+  "nombre": "prov5"
+}]

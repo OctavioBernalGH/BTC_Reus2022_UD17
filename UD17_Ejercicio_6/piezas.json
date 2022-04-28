@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626a5d1c02d056134800aad5"
+  },
+  "codigo": 1,
+  "nombre": "succionador"
+},{
+  "_id": {
+    "$oid": "626a5d2402d056134800aad6"
+  },
+  "codigo": 2,
+  "nombre": "bomba"
+},{
+  "_id": {
+    "$oid": "626a5d2b02d056134800aad7"
+  },
+  "codigo": 3,
+  "nombre": "macarrones"
+},{
+  "_id": {
+    "$oid": "626a5d4c02d056134800aad8"
+  },
+  "codigo": 4,
+  "nombre": "tuerca"
+},{
+  "_id": {
+    "$oid": "626a5d5702d056134800aad9"
+  },
+  "codigo": 5,
+  "nombre": "revuelto de nevera"
+}]
