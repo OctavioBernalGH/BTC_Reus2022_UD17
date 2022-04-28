@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626a567f02d056134800aab7"
+  },
+  "codigo": 1,
+  "nombre": "fabricante_1"
+},{
+  "_id": {
+    "$oid": "626a56c002d056134800aab8"
+  },
+  "codigo": 2,
+  "nombre": "fabricante_2"
+},{
+  "_id": {
+    "$oid": "626a56ca02d056134800aab9"
+  },
+  "codigo": 3,
+  "nombre": "fabricante_3"
+},{
+  "_id": {
+    "$oid": "626a56d002d056134800aaba"
+  },
+  "codigo": 4,
+  "nombre": "fabricante_4"
+},{
+  "_id": {
+    "$oid": "626a56d602d056134800aabb"
+  },
+  "codigo": 5,
+  "nombre": "fabricante_5"
+}]

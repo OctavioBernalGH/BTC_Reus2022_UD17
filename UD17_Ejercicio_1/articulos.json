@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626a57d802d056134800aabc"
+  },
+  "codigo": 1,
+  "nombre": "tuerca_1",
+  "precio": 150
+},{
+  "_id": {
+    "$oid": "626a57f702d056134800aabd"
+  },
+  "codigo": 2,
+  "nombre": "tuerca_2",
+  "precio": 155
+},{
+  "_id": {
+    "$oid": "626a580002d056134800aabe"
+  },
+  "codigo": 3,
+  "nombre": "tuerca_3",
+  "precio": 160
+},{
+  "_id": {
+    "$oid": "626a580a02d056134800aabf"
+  },
+  "codigo": 4,
+  "nombre": "tuerca_4",
+  "precio": 220
+},{
+  "_id": {
+    "$oid": "626a582002d056134800aac0"
+  },
+  "codigo": 5,
+  "nombre": "tuerca_5",
+  "precio": 250
+}]
