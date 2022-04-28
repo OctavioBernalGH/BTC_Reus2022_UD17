@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "626a650c96ee1c9071d7857b"
+  },
+  "dni": "12345678",
+  "nombre": "Uri",
+  "apellidos": "Lopez Bosch"
+},{
+  "_id": {
+    "$oid": "626a650c96ee1c9071d7857c"
+  },
+  "dni": "12345679",
+  "nombre": "Jose",
+  "apellidos": "Vazquez K"
+},{
+  "_id": {
+    "$oid": "626a650c96ee1c9071d7857d"
+  },
+  "dni": "12345610",
+  "nombre": "Ingrid",
+  "apellidos": "Lopez K"
+},{
+  "_id": {
+    "$oid": "626a650c96ee1c9071d7857e"
+  },
+  "dni": "12345611",
+  "nombre": "Enric",
+  "apellidos": "Gomez K"
+},{
+  "_id": {
+    "$oid": "626a650c96ee1c9071d7857f"
+  },
+  "dni": "12345612",
+  "nombre": "Aida",
+  "apellidos": "Jumillas K"
+},{
+  "_id": {
+    "$oid": "626a650c96ee1c9071d78580"
+  },
+  "dni": "12345613",
+  "nombre": "Francisco",
+  "apellidos": "Smith K"
+}]
