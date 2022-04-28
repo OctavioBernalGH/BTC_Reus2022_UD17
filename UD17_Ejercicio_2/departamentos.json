@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626a65dc96ee1c9071d78581"
+  },
+  "codigo": "12345613",
+  "nombre": "contabilidad",
+  "presupuesto": 10000
+},{
+  "_id": {
+    "$oid": "626a65dc96ee1c9071d78582"
+  },
+  "codigo": "371281123",
+  "nombre": "It",
+  "presupuesto": 20000
+},{
+  "_id": {
+    "$oid": "626a65dc96ee1c9071d78583"
+  },
+  "codigo": "32189312",
+  "nombre": "Diseño",
+  "presupuesto": 40000
+},{
+  "_id": {
+    "$oid": "626a65dc96ee1c9071d78584"
+  },
+  "codigo": "90934034",
+  "nombre": "Construccion",
+  "presupuesto": 14500
+},{
+  "_id": {
+    "$oid": "626a65dc96ee1c9071d78585"
+  },
+  "codigo": "9049043",
+  "nombre": "calidad",
+  "presupuesto": 54000
+}]

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626a6bb896ee1c9071d78595"
+  },
+  "codigo": "90402340",
+  "nombre": "zapatilla",
+  "precio": 721
+},{
+  "_id": {
+    "$oid": "626a6bb896ee1c9071d78596"
+  },
+  "codigo": "217832",
+  "nombre": "pantalon",
+  "precio": 635
+},{
+  "_id": {
+    "$oid": "626a6bb896ee1c9071d78597"
+  },
+  "codigo": "321893",
+  "nombre": "calcetin",
+  "precio": 233
+},{
+  "_id": {
+    "$oid": "626a6bb896ee1c9071d78598"
+  },
+  "codigo": "321893",
+  "nombre": "sombrero",
+  "precio": 112
+},{
+  "_id": {
+    "$oid": "626a6bb896ee1c9071d78599"
+  },
+  "codigo": "821938",
+  "nombre": "gafa",
+  "precio": 213
+}]

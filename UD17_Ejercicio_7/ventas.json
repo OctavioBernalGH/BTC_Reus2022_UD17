@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626a6df896ee1c9071d785a4"
+  },
+  "refCajero": "626a675a96ee1c9071d78590",
+  "refProducto": "626a6bb896ee1c9071d78595",
+  "refMaquina": "626a6c2d96ee1c9071d7859a"
+},{
+  "_id": {
+    "$oid": "626a6df896ee1c9071d785a5"
+  },
+  "refCajero": "626a675a96ee1c9071d78591",
+  "refProducto": "626a6bb896ee1c9071d78596",
+  "refMaquina": "626a6c2d96ee1c9071d7859b"
+},{
+  "_id": {
+    "$oid": "626a6df896ee1c9071d785a6"
+  },
+  "refCajero": "626a675a96ee1c9071d78592",
+  "refProducto": "626a6bb896ee1c9071d78597",
+  "refMaquina": "626a6c2d96ee1c9071d7859c"
+},{
+  "_id": {
+    "$oid": "626a6df896ee1c9071d785a7"
+  },
+  "refCajero": "626a675a96ee1c9071d78593",
+  "refProducto": "626a6bb896ee1c9071d78599",
+  "refMaquina": "626a6c2d96ee1c9071d7859d"
+},{
+  "_id": {
+    "$oid": "626a6df896ee1c9071d785a8"
+  },
+  "refCajero": "626a675a96ee1c9071d78594",
+  "refProducto": "626a6bb896ee1c9071d78595",
+  "refMaquina": "626a6c2d96ee1c9071d7859e"
+}]

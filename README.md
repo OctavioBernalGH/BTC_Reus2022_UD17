@@ -23,7 +23,7 @@ Esquema ejercicio 1 UD17:
 
 ![ejercicio_1](https://user-images.githubusercontent.com/103035621/165723139-e4847031-4a3d-454c-bb23-744efa8608b0.PNG)
 
-
+<p align="justify"> En este ejercicio crearemos distintas bases de datos, cada base de datos hará referencia al número de ejercicio. Dentro de cada base de datos crearemos las colecciones (tablas) e insertaremos objetos en cada colección. No hemos creado los campos de clave foránea por que al ser no relacional no mantenie el modelo de integridad referencial. En el ejercicio 7 hemos creado un ejemplo de referencia entre objetos. </p>
 
 <details>
   <summary>Sentencias creación Database y Collection</summary>
@@ -206,11 +206,126 @@ Esquema ejercicio 7 UD17:
 
 ![ejercicio_7](https://user-images.githubusercontent.com/103035621/165724262-77139d48-19a0-4a39-97d4-2cec96f4eaf0.PNG)
 
+<details>
+  <summary>Sentencias creación Database y Collection</summary>
+<br>
+<p align="justify">Mediante las siguientes sentencias crearemos la base de datos y las colecciones. Se muestran dos ejemplos de inserción en ambas colecciones.</p>
+  
+  ```sql
+ > use UD17_Ejercicio_7
+ > UD17_Ejercicio7: db.createCollection('cajeros')
+ > UD17_Ejercicio7: db.createCollection('venta')
+ > UD17_Ejercicio7: db.createCollection('productos')
+ > UD17_Ejercicio7: db.createCollection('maquinas_registradoras')
+ 
+  > UD17_Ejercicio_7: db.cajeros.insertOne({
+   "codigo": 1,
+   "nombreApellidos": 'Cajero_1',
+})
+ 
+  > UD17_Ejercicio_7: db.venta.insertOne({
+   "cajero": 1,
+   "maquina": 100,
+   "producto": 200
+})
+ 
+   > UD17_Ejercicio_7: db.productos.insertOne({
+   "codigo": 1,
+   "nombre": 'Cajero_1',
+   "precio": 150
+})
+ 
+  > UD17_Ejercicio_7: db.maquinas_registradoras.insertOne({
+   "codigo": 1,
+   "piso": 5,
+})
+ 
+ // Abajo se muestra como se realizaría el referenciado entre tablas.
+ > UD17_Ejercicio_7: db.ventas.insertOne({
+    "refCajero": "626a675a96ee1c9071d78590",
+    "refProducto": "626a6bb896ee1c9071d78595",   
+    "refMaquina": "626a6c2d96ee1c9071d7859a"   // Esa cadena hace referencia al ObjetcID() de ventas. 
+ })
+ 
+ 
+ 
+  ```
+ </details>
+ <br>
+
+
 Esquema ejercicio 8 UD17:
 
 ![ejercicio_8](https://user-images.githubusercontent.com/103035621/165724301-6c057ef2-c615-49d8-93a7-64d69be84c3f.PNG)
+
+<details>
+  <summary>Sentencias creación Database y Collection</summary>
+<br>
+<p align="justify">Mediante las siguientes sentencias crearemos la base de datos y las colecciones. Se muestran dos ejemplos de inserción en ambas colecciones.</p>
+  
+  ```sql
+ > use UD17_Ejercicio_8
+ > UD17_Ejercicio_8: db.createCollection('facultad')
+ > UD17_Ejercicio_8: db.createCollection('reserva')
+ > UD17_Ejercicio_8: db.createCollection('investigadores')
+ > UD17_Ejercicio_8: db.createCollection('equipos')
+ 
+  > UD17_Ejercicio_8: db.facultad.insertOne({
+   "codigo": 1,
+   "nombre": 'facultad facundo, facultad de otro mundo',
+})
+ 
+  > UD17_Ejercicio_8: db.reserva.insertOne({
+   "dni": '0000000X',
+   "num_serie": 'S123,
+   "comienzo": '2018/06/02',
+   "fin": '2022/10/05'
+})
+ 
+   > UD17_Ejercicio_8: db.investigadores.insertOne({
+   "dni": '000000S',
+   "nombreApellidos": 'Carlos pepe'
+})
+ 
+  > UD17_Ejercicio_8: db.equipos.insertOne({
+   "num_serie": 's132',
+   "nombre": 'equipo_1',
+})
+  ```
+ </details>
+ <br>
 
 Esquema ejercicio 9 UD17:
 
 ![ejercicio_9](https://user-images.githubusercontent.com/103035621/165724339-d5e9f3cb-0647-4d05-80c7-f0f0f04f8555.PNG)
 
+<details>
+  <summary>Sentencias creación Database y Collection</summary>
+<br>
+<p align="justify">Mediante las siguientes sentencias crearemos la base de datos y las colecciones. Se muestran dos ejemplos de inserción en ambas colecciones.</p>
+  
+  ```sql
+ > use UD17_Ejercicio_9
+ > UD17_Ejercicio_9: db.createCollection('cientificos')
+ > UD17_Ejercicio_9: db.createCollection('asignado_a')
+ > UD17_Ejercicio_9: db.createCollection('proyecto')
+ 
+  > UD17_Ejercicio_9: db.cientificos.insertOne({
+   "dni": '65161651A',
+   "nombreApellidos": '100tifico carlo',
+})
+ 
+  > UD17_Ejercicio_9: db.asignado_a.insertOne({
+   "cientifico": 'jaime',
+   "proyecto": 'PRO1,
+})
+ 
+   > UD17_Ejercicio_9: db.proyecto.insertOne({
+   "id": 'PR01',
+   "nombre": 'Proyecto anaconda',
+   "horas": 120
+})
+
+  ```
+ </details>
+ <br>
