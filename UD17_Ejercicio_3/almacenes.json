@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626a5a2099830e98ff5e30ed"
+  },
+  "codigo": 1,
+  "lugar": "Reus",
+  "capacidad": 5
+},{
+  "_id": {
+    "$oid": "626a5a7e99830e98ff5e30ee"
+  },
+  "codigo": 2,
+  "lugar": "Reus",
+  "capacidad": 17
+},{
+  "_id": {
+    "$oid": "626a5a9099830e98ff5e30ef"
+  },
+  "codigo": 3,
+  "lugar": "Tarragona",
+  "capacidad": 3
+},{
+  "_id": {
+    "$oid": "626a5aa799830e98ff5e30f0"
+  },
+  "codigo": 4,
+  "lugar": "Tarragona",
+  "capacidad": 8
+},{
+  "_id": {
+    "$oid": "626a5ab699830e98ff5e30f1"
+  },
+  "codigo": 5,
+  "lugar": "Manresa",
+  "capacidad": 100
+}]
