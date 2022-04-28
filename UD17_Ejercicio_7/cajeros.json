@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626a675a96ee1c9071d78590"
+  },
+  "codigo": "90402340",
+  "nombre": "cajero1"
+},{
+  "_id": {
+    "$oid": "626a675a96ee1c9071d78591"
+  },
+  "codigo": "15613",
+  "nombre": "cajero2"
+},{
+  "_id": {
+    "$oid": "626a675a96ee1c9071d78592"
+  },
+  "codigo": "9489234",
+  "nombre": "cajero3"
+},{
+  "_id": {
+    "$oid": "626a675a96ee1c9071d78593"
+  },
+  "codigo": "132io132",
+  "nombre": "cajero4"
+},{
+  "_id": {
+    "$oid": "626a675a96ee1c9071d78594"
+  },
+  "codigo": "2137831221",
+  "nombre": "cajero5"
+}]
