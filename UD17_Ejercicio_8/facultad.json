@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "626a5e6399830e98ff5e30f7"
+  },
+  "codigo": 1,
+  "nombre": "david"
+},{
+  "_id": {
+    "$oid": "626a5e6a99830e98ff5e30f8"
+  },
+  "codigo": 2,
+  "nombre": "uri"
+},{
+  "_id": {
+    "$oid": "626a5e7399830e98ff5e30f9"
+  },
+  "codigo": 3,
+  "nombre": "octavio"
+}]

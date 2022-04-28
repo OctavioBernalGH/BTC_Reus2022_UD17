@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "626a5f2599830e98ff5e30fd"
+  },
+  "numSerie": 1
+},{
+  "_id": {
+    "$oid": "626a5f2a99830e98ff5e30fe"
+  },
+  "numSerie": 2
+},{
+  "_id": {
+    "$oid": "626a5f2e99830e98ff5e30ff"
+  },
+  "numSerie": 3
+}]
