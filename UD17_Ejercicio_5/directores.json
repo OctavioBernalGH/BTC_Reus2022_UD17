@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626a5b9a02d056134800aacb"
+  },
+  "dni": "000000X",
+  "nombreApellidos": "Carlos tersero"
+},{
+  "_id": {
+    "$oid": "626a5ba502d056134800aacc"
+  },
+  "dni": "000000A",
+  "nombreApellidos": "Carlos cuarto"
+},{
+  "_id": {
+    "$oid": "626a5bb802d056134800aacd"
+  },
+  "dni": "000000B",
+  "nombreApellidos": "Carlos quinto"
+},{
+  "_id": {
+    "$oid": "626a5bc002d056134800aace"
+  },
+  "dni": "000000C",
+  "nombreApellidos": "Carlos sexto"
+},{
+  "_id": {
+    "$oid": "626a5bf702d056134800aacf"
+  },
+  "dni": "000000D",
+  "nombreApellidos": "Carlos septimo"
+}]
