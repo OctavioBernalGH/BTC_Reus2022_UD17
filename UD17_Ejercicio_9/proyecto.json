@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "626a6f3b99830e98ff5e3106"
+  },
+  "id": "1",
+  "nombre": "David",
+  "horas": 2
+},{
+  "_id": {
+    "$oid": "626a6f4899830e98ff5e3107"
+  },
+  "id": "2",
+  "nombre": "Octavio",
+  "horas": 5
+},{
+  "_id": {
+    "$oid": "626a6f5099830e98ff5e3108"
+  },
+  "id": "3",
+  "nombre": "Uri",
+  "horas": 3
+}]

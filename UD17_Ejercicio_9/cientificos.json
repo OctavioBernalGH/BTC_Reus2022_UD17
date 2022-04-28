@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "626a6e9799830e98ff5e3103"
+  },
+  "dni": "34934934A",
+  "nomApels": "David Dalmau"
+},{
+  "_id": {
+    "$oid": "626a6eb199830e98ff5e3104"
+  },
+  "dni": "34932554A",
+  "nomApels": "Octavio Bernal"
+},{
+  "_id": {
+    "$oid": "626a6ee099830e98ff5e3105"
+  },
+  "dni": "34932322B",
+  "nomApels": "Uri Lopez"
+}]

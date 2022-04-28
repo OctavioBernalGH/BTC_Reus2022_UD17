@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "626a701399830e98ff5e3109"
+  },
+  "cientifico": "1",
+  "proyecto": "1"
+},{
+  "_id": {
+    "$oid": "626a701b99830e98ff5e310a"
+  },
+  "cientifico": "2",
+  "proyecto": "2"
+},{
+  "_id": {
+    "$oid": "626a702299830e98ff5e310b"
+  },
+  "cientifico": "3",
+  "proyecto": "3"
+}]
