@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626a5a8402d056134800aac1"
+  },
+  "codigo": 1,
+  "nombre": "Sala 1"
+},{
+  "_id": {
+    "$oid": "626a5a8902d056134800aac2"
+  },
+  "codigo": 2,
+  "nombre": "Sala 2"
+},{
+  "_id": {
+    "$oid": "626a5a8d02d056134800aac3"
+  },
+  "codigo": 3,
+  "nombre": "Sala 3"
+},{
+  "_id": {
+    "$oid": "626a5a9202d056134800aac4"
+  },
+  "codigo": 4,
+  "nombre": "Sala 4"
+},{
+  "_id": {
+    "$oid": "626a5a9802d056134800aac5"
+  },
+  "codigo": 5,
+  "nombre": "Sala 5"
+}]

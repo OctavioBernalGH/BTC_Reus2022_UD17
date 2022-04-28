@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626a5ac902d056134800aac6"
+  },
+  "codigo": 1,
+  "nombre": "Tetanic",
+  "calificacionEdad": 18
+},{
+  "_id": {
+    "$oid": "626a5ad802d056134800aac7"
+  },
+  "codigo": 2,
+  "nombre": "Frodo el de la bolsa",
+  "calificacionEdad": 21
+},{
+  "_id": {
+    "$oid": "626a5ae602d056134800aac8"
+  },
+  "codigo": 3,
+  "nombre": "Star guars",
+  "calificacionEdad": 16
+},{
+  "_id": {
+    "$oid": "626a5af302d056134800aac9"
+  },
+  "codigo": 4,
+  "nombre": "alvin y las ardillas",
+  "calificacionEdad": 12
+},{
+  "_id": {
+    "$oid": "626a5b0002d056134800aaca"
+  },
+  "codigo": 5,
+  "nombre": "los teletabis",
+  "calificacionEdad": 6
+}]
